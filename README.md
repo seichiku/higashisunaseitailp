@@ -6,13 +6,13 @@
 ## セットアップ手順
 
 ### 1. Meta Pixel設定
-`index.html`の以下の箇所を実際のPixel IDに置き換えてください：
+✅ **設定完了** - Pixel ID: `754175396984660` が設定済みです。
 
 ```html
 <!-- 25行目と29行目 -->
-fbq('init', 'YOUR_PIXEL_ID_HERE');
+fbq('init', '754175396984660');
 <!-- 30行目 -->
-<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID_HERE&ev=PageView&noscript=1"/></noscript>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=754175396984660&ev=PageView&noscript=1"/></noscript>
 ```
 
 ### 2. Google Analytics設定
@@ -61,8 +61,23 @@ python3 simple_server.py
 5. **LINE公式アカウント**: 新しいアカウントに設定（要更新）
 6. **住所・電話番号**: 東砂の情報に更新（要更新）
 
+## GitHub Pages設定手順
+
+### リポジトリ作成後の設定
+1. GitHubリポジトリの「Settings」タブをクリック
+2. 左サイドバーの「Pages」をクリック
+3. Source で「Deploy from a branch」を選択
+4. Branch で「main」を選択、フォルダは「/ (root)」を選択
+5. 「Save」をクリック
+6. 数分後に `https://[USERNAME].github.io/higashisunaseitailp/` でアクセス可能
+
+### Meta Pixel動作確認
+- GitHub Pagesデプロイ後、Meta Pixel Helperで「Pixel ID: 754175396984660」が検出されることを確認
+- コンバージョントラッキングも正常に動作します
+
 ## 注意事項
 
-- 実際の運用前に、すべてのプレースホルダー（YOUR_PIXEL_ID_HERE等）を実際の値に置き換えてください
-- Meta Pixel Helperで動作確認を行ってください
-- Google Analyticsの設定も確認してください
+- ✅ Meta Pixel ID設定完了（754175396984660）
+- ⏳ Google Analytics ID要設定（G-XXXXXXXXXX）
+- ⏳ LINE公式アカウントURL要設定
+- ⏳ 院の詳細情報要更新
