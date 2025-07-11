@@ -6,13 +6,13 @@
 ## セットアップ手順
 
 ### 1. Meta Pixel設定
-✅ **設定完了** - Pixel ID: `754175396984660` が設定済みです。
+✅ **設定完了** - Pixel ID: `1278859460492634` が設定済みです。
 
 ```html
 <!-- 25行目と29行目 -->
-fbq('init', '754175396984660');
+fbq('init', '1278859460492634');
 <!-- 30行目 -->
-<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=754175396984660&ev=PageView&noscript=1"/></noscript>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1278859460492634&ev=PageView&noscript=1"/></noscript>
 ```
 
 ### 2. Google Analytics設定
@@ -72,12 +72,12 @@ python3 simple_server.py
 6. 数分後に `https://[USERNAME].github.io/higashisunaseitailp/` でアクセス可能
 
 ### Meta Pixel動作確認
-- GitHub Pagesデプロイ後、Meta Pixel Helperで「Pixel ID: 754175396984660」が検出されることを確認
+- GitHub Pagesデプロイ後、Meta Pixel Helperで「Pixel ID: 1278859460492634」が検出されることを確認
 - コンバージョントラッキングも正常に動作します
 
 ## 注意事項
 
-- ✅ Meta Pixel ID設定完了（754175396984660）
+- ✅ Meta Pixel ID設定完了（1278859460492634）
 - ⏳ Google Analytics ID要設定（G-XXXXXXXXXX）
 - ⏳ LINE公式アカウントURL要設定
 - ⏳ 院の詳細情報要更新
